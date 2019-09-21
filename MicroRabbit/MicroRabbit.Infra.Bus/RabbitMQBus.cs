@@ -35,7 +35,7 @@ namespace MicroRabbit.Infra.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost",
+                HostName = "192.168.215.201",
                 UserName = "saad",
                 Password = "messi170100"
             };
@@ -78,7 +78,7 @@ namespace MicroRabbit.Infra.Bus
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost",
+                HostName = "192.168.215.201",
                 DispatchConsumersAsync = true,
                 UserName = "saad",
                 Password = "messi170100"
