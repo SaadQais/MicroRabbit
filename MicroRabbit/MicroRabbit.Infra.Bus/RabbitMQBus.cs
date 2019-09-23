@@ -106,7 +106,7 @@ namespace MicroRabbit.Infra.Bus
             {
                 await ProcessEvent(eventName, message).ConfigureAwait(false);
             }
-            catch (Exception ex) {}
+            catch {}
         }
 
         private async Task ProcessEvent(string eventName, string message)
